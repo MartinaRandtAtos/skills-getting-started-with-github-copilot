@@ -88,15 +88,37 @@ section h3 {
 }
 
 .participants ul {
-  list-style-position: inside;
+  list-style: none;
   margin: 0;
-  padding-left: 20px;
+  padding-left: 0;
 }
 
 .participants li {
   color: #555;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.participants span {
+  flex: 1;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 8px;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #ffebee;
 }
 
 .participants li:before {

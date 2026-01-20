@@ -74,6 +74,38 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.participants h5 {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.participants ul {
+  list-style-position: inside;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.participants li {
+  color: #555;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.participants li:before {
+  content: "✓ ";
+  color: #0066cc;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
